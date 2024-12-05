@@ -15,26 +15,29 @@ Acceptez les termes du contrat d'utilisation en appuyant sur Entrée
 
 ![image](/pfSense_Install/1-Install.png)  
 
-Selectionnez "Install pfSense" et faîtes Entrée  
+Sélectionnez "Install pfSense" et faîtes Entrée.  
 
 ![image](/pfSense_Install/2-Install.png)  
 
-Concernant le mode de partitionnement, nous utiliserons le mode automatique (Auto-ZFS)  
+Concernant le mode de partitionnement, nous utiliserons le mode automatique (Auto-ZFS).   
 
 ![image](/pfSense_Install/3-Install.png)  
 
-
+Valider ensuite le partionnement sans redondance.   
 
 ![image](/pfSense_Install/4-Install.png)  
 
+Sélectionnez le disque dur avec Espace puis validez avec Entrée.  
+Confirmer ensuite ce choix avec "Yes".  
 
 ![image](/pfSense_Install/5-Install.png)  
-
-
 ![image](/pfSense_Install/6-Install.png)  
 
+pfSense va maintenant s'installer sur votre machine.  
+Lorsque l'installation est terminée, choisissez de redémarrer celle-ci.  
 
 ![image](/pfSense_Install/7-Install.png)  
+
 
 
 ![image](/pfSense_Install/8-Install.png)  
