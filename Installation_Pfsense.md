@@ -41,22 +41,22 @@ Lorsque l'installation est terminée, choisissez de redémarrer celle-ci.
 
 ![image](/pfSense_Install/8-Install.png)  
 
-Au premier démarrage, pfSense détecte automatiquement les interfaces réseau. 
-La plupart du temps, vous verrez l'interface WAN rattachée à l'interface em0 correspondant à la première interface ajoutée. L'interface LAN quant à elle sera rattachée à l'interface em1, correspondant à la deuxième interface ajoutée à la VM.
+Au premier démarrage, pfSense détecte automatiquement les interfaces réseau.   
+La plupart du temps, vous verrez l'interface WAN rattachée à l'interface em0 correspondant à la première interface ajoutée. L'interface LAN quant à elle sera rattachée à l'interface em1, correspondant à la deuxième interface ajoutée à la VM.  
 
 ![image](/pfSense_Install/9-Install.png)  
 
-Comme on peut le voir, la configuration IP de l'interface WAN a été attribuée par le serveur DHCP de mon réseau. Nous allons configurer l'interface LAN avec sa configuration IP adéquate.
+Comme on peut le voir, la configuration IP de l'interface WAN a été attribuée par le serveur DHCP de mon réseau. Nous allons configurer l'interface LAN avec sa configuration IP adéquate.  
 
-Pour modifier la configuration IP de notre interface LAN, nous allons procéder comme suit :
-Choisissez l'option 2.
-Ensuite, nous allons sélectionner l'interface LAN en entrant l'option 2 et indiquer que nous n'allons pas configurer l'interface via DHCP.
-Enfin, nous allons définir la configuration IP de notre interface manuellement :
-Adresse IP de l'interface LAN : 192.168.100.1
-Masque de sous-réseau (en notation CIDR) : 24 = 255.255.255.0
-Pas de passerelle
-Pas de configuration IPv6
-Pas de serveur DHCP IPv4 - il pourra être configuré par la suite depuis l'interface Web
+Pour modifier la configuration IP de notre interface LAN, nous allons procéder comme suit :  
+Choisissez l'option 2.  
+Ensuite, nous allons sélectionner l'interface LAN en entrant l'option 2 et indiquer que nous n'allons pas configurer l'interface via DHCP.  
+Enfin, nous allons définir la configuration IP de notre interface manuellement :  
+Adresse IP de l'interface LAN : 192.168.100.1  
+Masque de sous-réseau (en notation CIDR) : 24 = 255.255.255.0  
+Pas de passerelle  
+Pas de configuration IPv6  
+Pas de serveur DHCP IPv4 - il pourra être configuré par la suite depuis l'interface Web  
 
 ![image](/pfSense_Install/10-Install.png)  
 
