@@ -1,7 +1,7 @@
 ## INSTALLATION ET CONFIGURATION INITIALE DE pfSENSE
 
 
-![image](/Pfsense_Install/1-Install.png)  
+![image](/pfSense_Install/1-Install.png)  
 
 
 ![image](/Pfsense_Install/2-Install.png)  
