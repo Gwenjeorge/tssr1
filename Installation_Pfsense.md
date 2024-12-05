@@ -61,6 +61,7 @@ Pas de serveur DHCP IPv4 - il pourra être configuré par la suite depuis l'inte
 ![image](/pfSense_Install/10-Install.png)  
 
 
+
 ![image](/pfSense_Install/11-Install.png)  
 
 
